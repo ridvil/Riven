@@ -10,11 +10,25 @@ package Costs;
  * @author dpw82
  */
 public class TAX implements CommonCosts{
+
+    
     private double salesTax;
     private double propertyTax;
     private double stateTax;
     private double federalTax;
 
+    
+    
+    public TAX() {
+    }
+
+    public TAX(double salesTax, double propertyTax, double stateTax, double federalTax) {
+        this.salesTax = salesTax;
+        this.propertyTax = propertyTax;
+        this.stateTax = stateTax;
+        this.federalTax = federalTax;
+    }
+    
     /**
      * @return the salesTax
      */
@@ -69,5 +83,10 @@ public class TAX implements CommonCosts{
      */
     public void setFederalTax(double federalTax) {
         this.federalTax = federalTax;
+    }
+
+    @Override
+    public long calcTotalCost() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

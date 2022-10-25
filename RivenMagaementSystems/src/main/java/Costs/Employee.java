@@ -14,6 +14,15 @@ public class Employee implements CommonCosts{
     private double hours;
     private String jobTitle;
 
+    public Employee() {
+    }
+
+    public Employee(double payRate, double hours, String jobTitle) {
+        this.payRate = payRate;
+        this.hours = hours;
+        this.jobTitle = jobTitle;
+    }
+    
     /**
      * @return the payRate
      */
@@ -57,7 +66,7 @@ public class Employee implements CommonCosts{
     }
 
     @Override
-    public double calcTotalCost() {
+    public long calcTotalCost() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

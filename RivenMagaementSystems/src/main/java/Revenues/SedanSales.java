@@ -12,7 +12,7 @@ package Revenues;
 public class SedanSales implements CommonSalesData {
 
     @Override
-    public double totalSales() {
+    public long totalSales() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     ////

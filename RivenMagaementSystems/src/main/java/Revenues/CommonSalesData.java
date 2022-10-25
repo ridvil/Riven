@@ -10,5 +10,5 @@ package Revenues;
  * @author dpw82
  */
 public interface CommonSalesData {
-    public double totalSales();
+    public long totalSales();
 }

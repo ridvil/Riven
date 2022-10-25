@@ -14,6 +14,15 @@ public class Miscellanious implements CommonCosts{
     private double technologyCost;
     private double officeCost;
 
+    public Miscellanious() {
+    }
+
+    public Miscellanious(double cleaningCost, double technologyCost, double officeCost) {
+        this.cleaningCost = cleaningCost;
+        this.technologyCost = technologyCost;
+        this.officeCost = officeCost;
+    }
+    
     /**
      * @return the cleaningCost
      */
@@ -54,6 +63,11 @@ public class Miscellanious implements CommonCosts{
      */
     public void setOfficeCost(double officeCost) {
         this.officeCost = officeCost;
+    }
+
+    @Override
+    public long calcTotalCost() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
    
