@@ -10,5 +10,5 @@ package Costs;
  * @author dpw82
  */
 public interface CommonCosts {
-    
+    public double calcTotalCost();
 }

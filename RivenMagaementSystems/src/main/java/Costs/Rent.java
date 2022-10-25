@@ -9,6 +9,35 @@ package Costs;
  *
  * @author dpw82
  */
-public class Rent {
-    
+public class Rent implements CommonCosts{
+    private double monthlyRent;
+    private double yearlyRent;
+
+    /**
+     * @return the monthlyRent
+     */
+    public double getMonthlyRent() {
+        return monthlyRent;
+    }
+
+    /**
+     * @param monthlyRent the monthlyRent to set
+     */
+    public void setMonthlyRent(double monthlyRent) {
+        this.monthlyRent = monthlyRent;
+    }
+
+    /**
+     * @return the yearlyRent
+     */
+    public double getYearlyRent() {
+        return yearlyRent;
+    }
+
+    /**
+     * @param yearlyRent the yearlyRent to set
+     */
+    public void setYearlyRent(double yearlyRent) {
+        this.yearlyRent = yearlyRent;
+    }
 }
