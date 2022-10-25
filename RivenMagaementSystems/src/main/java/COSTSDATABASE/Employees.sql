@@ -8,3 +8,5 @@
  * Created: Oct 24, 2022
  */
 
+CREATE DATABASE EMPLOYEES;
+
