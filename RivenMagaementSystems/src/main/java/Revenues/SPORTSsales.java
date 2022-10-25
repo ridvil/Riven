@@ -5,6 +5,10 @@
  */
 package Revenues;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.logging.Logger;
 
 /**
@@ -12,6 +16,10 @@ import java.util.logging.Logger;
  * @author dpw82
  */
 public class SPORTSsales implements CommonSalesData{
+    
+    static final String DB_URL = "jdbc:mysql://localhost/TUTORIALSPOINT";
+    static final String USER = "guest";
+    static final String PASS = "guest123";
     
     private double SportsPrice;
     private String carName;
@@ -43,7 +51,18 @@ public class SPORTSsales implements CommonSalesData{
 
     @Override
     public long totalSales() {
-        return SELECT SUM(column_name) FROM table_name WHERE condition;
+        try {
+         Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
+         Statement stmt = conn.createStatement();		      
+         // Execute a query
+         System.out.println("Inserting records into the table...");          
+         String sql = "SELECT (SELECT SUM('SportsPrice') FROM Mercedes) + (SELECT SUM('SportsPrice') FROM BMW) AS 'totalSum'";
+         return stmt.executeUpdate(sql);
+        } catch (SQLException e) {
+         e.printStackTrace();
+        }
+        
+        return 0;
     }
     
 }
