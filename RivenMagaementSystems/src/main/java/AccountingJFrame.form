@@ -53,11 +53,11 @@
                   </Group>
                   <Component id="monthlyRentText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <Component id="jButton9" max="32767" attributes="0"/>
+                      <Component id="salesTaxButton" max="32767" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton10" min="-2" max="-2" attributes="0"/>
+                      <Component id="propertyTaxButton" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="textField40" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                  <Component id="salesTaxText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Component id="textField41" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Component id="jButton11" max="32767" attributes="0"/>
@@ -124,7 +124,7 @@
                           <Component id="techCostButton" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="techCostText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="yearlyRentText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField37" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="propertyTaxText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="textField44" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="textField49" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="textField58" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
@@ -153,8 +153,7 @@
                   <Component id="officeCostText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Component id="textField27" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Component id="button25" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="textField35" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button31" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                  <Component id="stateTaxText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Component id="textField42" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Component id="button34" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                   <Component id="button40" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
@@ -180,11 +179,11 @@
                       <Component id="SportText" alignment="0" pref="79" max="32767" attributes="0"/>
                   </Group>
                   <Component id="officeCostButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="stateTaxButton" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="CarNameText" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="textField11" min="-2" pref="79" max="-2" attributes="0"/>
@@ -193,8 +192,7 @@
                           <Component id="button17" min="-2" pref="91" max="-2" attributes="0"/>
                           <Component id="button22" min="-2" pref="91" max="-2" attributes="0"/>
                           <Component id="textField30" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button28" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField38" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="federalTaxText" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="textField43" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="button37" min="-2" pref="91" max="-2" attributes="0"/>
                           <Component id="textField50" min="-2" pref="79" max="-2" attributes="0"/>
@@ -211,10 +209,11 @@
                           <Component id="button70" min="-2" pref="91" max="-2" attributes="0"/>
                           <Component id="button73" min="-2" pref="91" max="-2" attributes="0"/>
                           <Component id="textField100" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="federalTaxButton" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                       <Component id="CarName" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -348,7 +347,7 @@
                       <Component id="textField9" alignment="0" pref="79" max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="64" max="32767" attributes="0"/>
+              <EmptySpace pref="62" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -515,44 +514,49 @@
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField37" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField40" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="propertyTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="salesTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="salesTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="propertyTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="stateTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="textField39" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="button26" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="textField36" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="button29" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton9" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton10" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField38" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField35" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="federalTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="stateTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="textField34" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="textField33" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button31" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button28" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button27" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button30" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="button27" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="button30" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="federalTaxButton" min="-2" max="-2" attributes="0"/>
                       </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField39" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button26" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField36" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button29" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
@@ -1016,6 +1020,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="payRate"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="payRateButtonActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jobHoursButton">
       <Properties>
@@ -1212,7 +1219,7 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField35">
+    <Component class="java.awt.TextField" name="stateTaxText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
@@ -1222,9 +1229,9 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton9">
+    <Component class="javax.swing.JButton" name="salesTaxButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="salesTax"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="button26">
@@ -1237,27 +1244,22 @@
         <Property name="label" type="java.lang.String" value="button3"/>
       </Properties>
     </Component>
-    <Component class="java.awt.Button" name="button28">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
     <Component class="java.awt.Button" name="button29">
       <Properties>
         <Property name="label" type="java.lang.String" value="button3"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField37">
+    <Component class="java.awt.TextField" name="propertyTaxText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton10">
+    <Component class="javax.swing.JButton" name="propertyTaxButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
+        <Property name="text" type="java.lang.String" value="propertyTax"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField38">
+    <Component class="java.awt.TextField" name="federalTaxText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
@@ -1270,17 +1272,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button30ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="java.awt.Button" name="button31">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
     <Component class="java.awt.TextField" name="textField39">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField40">
+    <Component class="java.awt.TextField" name="salesTaxText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField1"/>
       </Properties>
@@ -2005,6 +2002,16 @@
     <Component class="javax.swing.JButton" name="officeCostButton">
       <Properties>
         <Property name="text" type="java.lang.String" value="officeCost"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="stateTaxButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="stateTax"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="federalTaxButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="federalTax"/>
       </Properties>
     </Component>
   </SubComponents>

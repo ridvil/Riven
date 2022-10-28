@@ -10,7 +10,36 @@ package Revenues;
  * @author dpw82
  */
 public class SUVsales implements CommonSalesData {
+    
+    private double SUVprice;
+    private String carName;
 
+    public SUVsales() {
+    }
+
+    public SUVsales(double SUVprice, String carName) {
+        this.SUVprice = SUVprice;
+        this.carName = carName;
+    }
+
+    public double getSUVprice() {
+        return SUVprice;
+    }
+
+    public void setSUVprice(double SUVprice) {
+        this.SUVprice = SUVprice;
+    }
+
+    public String getCarName() {
+        return carName;
+    }
+
+    public void setCarName(String carName) {
+        this.carName = carName;
+    }
+    
+    
+    
     @Override
     public long totalSales() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
