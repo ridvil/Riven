@@ -1,2 +1,2 @@
 # Riven
-A business management system.
+A business management system for tracking inventory/profitablilty.
