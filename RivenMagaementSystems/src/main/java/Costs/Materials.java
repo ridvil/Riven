@@ -9,6 +9,72 @@ package Costs;
  *
  * @author dpw82
  */
-public class Materials {
+public class Materials implements CommonCosts{
     
+    @Override
+    public long calcTotalCost() {
+        return 0;
+    }
+    
+    private double SUVcost;
+    private double SEDANcost;
+    private double SPORTScost;
+    private String CarName;
+
+    /**
+     * @return the SUVcost
+     */
+    public double getSUVcost() {
+        return SUVcost;
+    }
+
+    /**
+     * @param SUVcost the SUVcost to set
+     */
+    public void setSUVcost(double SUVcost) {
+        this.SUVcost = SUVcost;
+    }
+
+    /**
+     * @return the SEDANcost
+     */
+    public double getSEDANcost() {
+        return SEDANcost;
+    }
+
+    /**
+     * @param SEDANcost the SEDANcost to set
+     */
+    public void setSEDANcost(double SEDANcost) {
+        this.SEDANcost = SEDANcost;
+    }
+
+    /**
+     * @return the SPORTScost
+     */
+    public double getSPORTScost() {
+        return SPORTScost;
+    }
+
+    /**
+     * @param SPORTScost the SPORTScost to set
+     */
+    public void setSPORTScost(double SPORTScost) {
+        this.SPORTScost = SPORTScost;
+    }
+
+    /**
+     * @return the CarName
+     */
+    public String getCarName() {
+        return CarName;
+    }
+
+    /**
+     * @param CarName the CarName to set
+     */
+    public void setCarName(String CarName) {
+        this.CarName = CarName;
+    }
+
 }

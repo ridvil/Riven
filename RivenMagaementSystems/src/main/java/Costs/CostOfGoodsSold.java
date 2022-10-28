@@ -12,7 +12,7 @@ package Costs;
 public class CostOfGoodsSold implements CommonCosts{
 
     @Override
-    public double totalCosts() {
+    public long calcTotalCost() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

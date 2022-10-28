@@ -11,7 +11,7 @@ import java.sql.*;
  *
  * @author dpw82
  */
-public class Driver {
+public class Drivertemp {
     
     static final String DB_URL = "jdbc:mysql://localhost/TUTORIALSPOINT";
     static final String USER = "guest";
