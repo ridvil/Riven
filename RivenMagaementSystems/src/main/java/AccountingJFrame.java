@@ -39,8 +39,7 @@ public class AccountingJFrame extends javax.swing.JFrame {
         textField7 = new java.awt.TextField();
         textField8 = new java.awt.TextField();
         textField9 = new java.awt.TextField();
-        textField10 = new java.awt.TextField();
-        button8 = new java.awt.Button();
+        hoursText = new java.awt.TextField();
         textField11 = new java.awt.TextField();
         button9 = new java.awt.Button();
         textField12 = new java.awt.TextField();
@@ -51,23 +50,22 @@ public class AccountingJFrame extends javax.swing.JFrame {
         textField15 = new java.awt.TextField();
         button12 = new java.awt.Button();
         button13 = new java.awt.Button();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        textField3 = new java.awt.TextField();
-        textField16 = new java.awt.TextField();
+        payRateButton = new javax.swing.JButton();
+        jobHoursButton = new javax.swing.JButton();
+        payRateText = new java.awt.TextField();
+        jobTitletext = new java.awt.TextField();
         textField17 = new java.awt.TextField();
-        textField18 = new java.awt.TextField();
+        techCostText = new java.awt.TextField();
         textField19 = new java.awt.TextField();
         button14 = new java.awt.Button();
         button15 = new java.awt.Button();
         textField20 = new java.awt.TextField();
         textField21 = new java.awt.TextField();
-        button16 = new java.awt.Button();
-        jButton5 = new javax.swing.JButton();
+        CleaningCostbutton = new javax.swing.JButton();
         textField22 = new java.awt.TextField();
-        textField23 = new java.awt.TextField();
-        textField24 = new java.awt.TextField();
-        jButton6 = new javax.swing.JButton();
+        officeCostText = new java.awt.TextField();
+        CleaningCostText = new java.awt.TextField();
+        techCostButton = new javax.swing.JButton();
         button17 = new java.awt.Button();
         button18 = new java.awt.Button();
         button19 = new java.awt.Button();
@@ -75,18 +73,18 @@ public class AccountingJFrame extends javax.swing.JFrame {
         textField26 = new java.awt.TextField();
         textField27 = new java.awt.TextField();
         textField28 = new java.awt.TextField();
-        jButton7 = new javax.swing.JButton();
+        monthlyRentButton = new javax.swing.JButton();
         button20 = new java.awt.Button();
         button21 = new java.awt.Button();
         button22 = new java.awt.Button();
         button23 = new java.awt.Button();
-        textField29 = new java.awt.TextField();
-        jButton8 = new javax.swing.JButton();
+        yearlyRentText = new java.awt.TextField();
+        yearlyRentButton = new javax.swing.JButton();
         textField30 = new java.awt.TextField();
         button24 = new java.awt.Button();
         button25 = new java.awt.Button();
         textField31 = new java.awt.TextField();
-        textField32 = new java.awt.TextField();
+        monthlyRentText = new java.awt.TextField();
         textField33 = new java.awt.TextField();
         textField34 = new java.awt.TextField();
         textField35 = new java.awt.TextField();
@@ -237,6 +235,8 @@ public class AccountingJFrame extends javax.swing.JFrame {
         jButton29 = new javax.swing.JButton();
         jButton30 = new javax.swing.JButton();
         jButton31 = new javax.swing.JButton();
+        jobTitlebutton = new javax.swing.JButton();
+        officeCostButton = new javax.swing.JButton();
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -286,9 +286,7 @@ public class AccountingJFrame extends javax.swing.JFrame {
 
         textField9.setText("textField2");
 
-        textField10.setText("textField2");
-
-        button8.setLabel("button1");
+        hoursText.setText("textField2");
 
         textField11.setText("textField2");
 
@@ -320,17 +318,17 @@ public class AccountingJFrame extends javax.swing.JFrame {
 
         button13.setLabel("button3");
 
-        jButton3.setText("jButton1");
+        payRateButton.setText("payRate");
 
-        jButton4.setText("jButton2");
+        jobHoursButton.setText("hours");
 
-        textField3.setText("textField1");
+        payRateText.setText("textField1");
 
-        textField16.setText("textField2");
+        jobTitletext.setText("textField2");
 
         textField17.setText("textField2");
 
-        textField18.setText("textField2");
+        techCostText.setText("textField2");
 
         textField19.setText("textField2");
 
@@ -347,22 +345,20 @@ public class AccountingJFrame extends javax.swing.JFrame {
 
         textField21.setText("textField2");
 
-        button16.setLabel("button1");
-
-        jButton5.setText("jButton1");
+        CleaningCostbutton.setText("cleaningCost");
 
         textField22.setText("textField2");
 
-        textField23.setText("textField2");
+        officeCostText.setText("textField2");
 
-        textField24.setText("textField1");
-        textField24.addActionListener(new java.awt.event.ActionListener() {
+        CleaningCostText.setText("textField1");
+        CleaningCostText.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                textField24ActionPerformed(evt);
+                CleaningCostTextActionPerformed(evt);
             }
         });
 
-        jButton6.setText("jButton2");
+        techCostButton.setText("techCost");
 
         button17.setLabel("button2");
 
@@ -378,7 +374,7 @@ public class AccountingJFrame extends javax.swing.JFrame {
 
         textField28.setText("textField2");
 
-        jButton7.setText("jButton1");
+        monthlyRentButton.setText("monthlyRent");
 
         button20.setLabel("button3");
 
@@ -388,9 +384,14 @@ public class AccountingJFrame extends javax.swing.JFrame {
 
         button23.setLabel("button3");
 
-        textField29.setText("textField2");
+        yearlyRentText.setText("textField2");
 
-        jButton8.setText("jButton2");
+        yearlyRentButton.setText("yearlyRent");
+        yearlyRentButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                yearlyRentButtonActionPerformed(evt);
+            }
+        });
 
         textField30.setText("textField2");
 
@@ -405,7 +406,12 @@ public class AccountingJFrame extends javax.swing.JFrame {
 
         textField31.setText("textField2");
 
-        textField32.setText("textField1");
+        monthlyRentText.setText("textField1");
+        monthlyRentText.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                monthlyRentTextActionPerformed(evt);
+            }
+        });
 
         textField33.setText("textField2");
 
@@ -777,6 +783,15 @@ public class AccountingJFrame extends javax.swing.JFrame {
 
         jButton31.setText("jButton31");
 
+        jobTitlebutton.setText("title");
+        jobTitlebutton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jobTitlebuttonActionPerformed(evt);
+            }
+        });
+
+        officeCostButton.setText("officeCost");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -784,42 +799,11 @@ public class AccountingJFrame extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(SuvText, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addComponent(SUVcost, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton2))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(monthlyRentButton, javax.swing.GroupLayout.DEFAULT_SIZE, 116, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton4))
-                    .addComponent(textField3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(97, 97, 97)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(SEDANtext, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField10, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField18, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField29, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField37, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField44, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField49, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField58, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField62, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField76, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField81, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField95, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField99, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton6))
-                    .addComponent(textField24, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton8))
-                    .addComponent(textField32, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(yearlyRentButton))
+                    .addComponent(monthlyRentText, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
@@ -864,14 +848,43 @@ public class AccountingJFrame extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton25)))
+                        .addComponent(jButton25))
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(payRateButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(payRateText, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(27, 27, 27)
+                        .addComponent(jobHoursButton, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(CleaningCostText, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(CleaningCostbutton, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(techCostButton, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(techCostText, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(yearlyRentText, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textField37, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textField44, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textField49, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textField58, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textField62, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textField76, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textField81, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textField95, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(textField99, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(hoursText, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(SuvText, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(SUVcost, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(28, 28, 28)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
+                            .addComponent(SEDANtext, javax.swing.GroupLayout.DEFAULT_SIZE, 85, Short.MAX_VALUE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(SportText, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(button8, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(textField16, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(button16, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(textField23, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(officeCostText, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(textField27, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(button25, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(textField35, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -892,7 +905,14 @@ public class AccountingJFrame extends javax.swing.JFrame {
                     .addComponent(textField92, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(button69, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(textField96, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(SportCost))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jobTitlebutton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jobTitletext, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 79, Short.MAX_VALUE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(SportCost, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
+                        .addComponent(SportText, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 79, Short.MAX_VALUE))
+                    .addComponent(officeCostButton))
+                .addGap(15, 15, 15)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(22, 22, 22)
@@ -1045,12 +1065,12 @@ public class AccountingJFrame extends javax.swing.JFrame {
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addComponent(jButton31, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
                         .addComponent(textField9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 79, Short.MAX_VALUE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(64, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(90, 90, 90)
+                .addGap(60, 60, 60)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -1076,25 +1096,25 @@ public class AccountingJFrame extends javax.swing.JFrame {
                                 .addComponent(textField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(textField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(34, 34, 34)))
-                .addGap(87, 87, 87)
+                .addGap(90, 90, 90)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(textField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(hoursText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(payRateText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton3)
-                            .addComponent(jButton4)))
+                            .addComponent(payRateButton)
+                            .addComponent(jobHoursButton)
+                            .addComponent(jobTitlebutton)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(textField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jobTitletext, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(textField13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(textField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(button8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(button9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(button11, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(button10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -1111,21 +1131,21 @@ public class AccountingJFrame extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(textField18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(techCostText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(CleaningCostText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton5)
-                            .addComponent(jButton6)))
+                            .addComponent(CleaningCostbutton)
+                            .addComponent(techCostButton)
+                            .addComponent(officeCostButton)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(textField17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(officeCostText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(textField20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(textField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(button16, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(button17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(button19, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(button14, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -1142,12 +1162,12 @@ public class AccountingJFrame extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(textField29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(textField32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(yearlyRentText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(monthlyRentText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton7)
-                            .addComponent(jButton8)))
+                            .addComponent(monthlyRentButton)
+                            .addComponent(yearlyRentButton)))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(textField30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1468,9 +1488,9 @@ public class AccountingJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_button24ActionPerformed
 
-    private void textField24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textField24ActionPerformed
+    private void CleaningCostTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CleaningCostTextActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_textField24ActionPerformed
+    }//GEN-LAST:event_CleaningCostTextActionPerformed
 
     private void button30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button30ActionPerformed
         // TODO add your handling code here:
@@ -1548,6 +1568,18 @@ public class AccountingJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_SportCostActionPerformed
 
+    private void jobTitlebuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jobTitlebuttonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jobTitlebuttonActionPerformed
+
+    private void yearlyRentButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yearlyRentButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_yearlyRentButtonActionPerformed
+
+    private void monthlyRentTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_monthlyRentTextActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_monthlyRentTextActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1587,6 +1619,8 @@ public class AccountingJFrame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton CarName;
     private java.awt.TextField CarNameText;
+    private java.awt.TextField CleaningCostText;
+    private javax.swing.JButton CleaningCostbutton;
     private java.awt.TextField SEDANtext;
     private javax.swing.JButton SUVcost;
     private javax.swing.JButton SportCost;
@@ -1598,7 +1632,6 @@ public class AccountingJFrame extends javax.swing.JFrame {
     private java.awt.Button button13;
     private java.awt.Button button14;
     private java.awt.Button button15;
-    private java.awt.Button button16;
     private java.awt.Button button17;
     private java.awt.Button button18;
     private java.awt.Button button19;
@@ -1662,8 +1695,8 @@ public class AccountingJFrame extends javax.swing.JFrame {
     private java.awt.Button button77;
     private java.awt.Button button78;
     private java.awt.Button button79;
-    private java.awt.Button button8;
     private java.awt.Button button9;
+    private java.awt.TextField hoursText;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
@@ -1684,19 +1717,23 @@ public class AccountingJFrame extends javax.swing.JFrame {
     private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton28;
     private javax.swing.JButton jButton29;
-    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton30;
     private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
-    private java.awt.TextField textField10;
+    private javax.swing.JButton jobHoursButton;
+    private javax.swing.JButton jobTitlebutton;
+    private java.awt.TextField jobTitletext;
+    private javax.swing.JButton monthlyRentButton;
+    private java.awt.TextField monthlyRentText;
+    private javax.swing.JButton officeCostButton;
+    private java.awt.TextField officeCostText;
+    private javax.swing.JButton payRateButton;
+    private java.awt.TextField payRateText;
+    private javax.swing.JButton techCostButton;
+    private java.awt.TextField techCostText;
     private java.awt.TextField textField100;
     private java.awt.TextField textField101;
     private java.awt.TextField textField102;
@@ -1707,24 +1744,17 @@ public class AccountingJFrame extends javax.swing.JFrame {
     private java.awt.TextField textField13;
     private java.awt.TextField textField14;
     private java.awt.TextField textField15;
-    private java.awt.TextField textField16;
     private java.awt.TextField textField17;
-    private java.awt.TextField textField18;
     private java.awt.TextField textField19;
     private java.awt.TextField textField20;
     private java.awt.TextField textField21;
     private java.awt.TextField textField22;
-    private java.awt.TextField textField23;
-    private java.awt.TextField textField24;
     private java.awt.TextField textField25;
     private java.awt.TextField textField26;
     private java.awt.TextField textField27;
     private java.awt.TextField textField28;
-    private java.awt.TextField textField29;
-    private java.awt.TextField textField3;
     private java.awt.TextField textField30;
     private java.awt.TextField textField31;
-    private java.awt.TextField textField32;
     private java.awt.TextField textField33;
     private java.awt.TextField textField34;
     private java.awt.TextField textField35;
@@ -1796,5 +1826,7 @@ public class AccountingJFrame extends javax.swing.JFrame {
     private java.awt.TextField textField97;
     private java.awt.TextField textField98;
     private java.awt.TextField textField99;
+    private javax.swing.JButton yearlyRentButton;
+    private java.awt.TextField yearlyRentText;
     // End of variables declaration//GEN-END:variables
 }

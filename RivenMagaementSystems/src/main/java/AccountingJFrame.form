@@ -46,48 +46,12 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                  <Component id="SuvText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="SUVcost" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                  </Group>
                   <Group type="102" attributes="0">
-                      <Component id="jButton3" max="32767" attributes="0"/>
+                      <Component id="monthlyRentButton" pref="116" max="32767" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      <Component id="yearlyRentButton" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="textField3" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="SEDANtext" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField10" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField18" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField29" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField37" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField44" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField49" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField58" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField62" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField76" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField81" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField95" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField99" min="-2" pref="79" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton5" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton6" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="textField24" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton7" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton8" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="textField32" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                  <Component id="monthlyRentText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Component id="jButton9" max="32767" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -142,14 +106,51 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jButton25" min="-2" max="-2" attributes="0"/>
                   </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="payRateButton" max="32767" attributes="0"/>
+                          <Component id="payRateText" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="jobHoursButton" min="-2" pref="87" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="CleaningCostText" min="-2" pref="113" max="-2" attributes="0"/>
+                          <Component id="CleaningCostbutton" alignment="0" min="-2" pref="113" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="techCostButton" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="techCostText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="yearlyRentText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="textField37" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="textField44" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="textField49" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="textField58" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="textField62" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="textField76" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="textField81" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="textField95" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="textField99" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="hoursText" alignment="1" min="-2" pref="87" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="SuvText" max="32767" attributes="0"/>
+                          <Component id="SUVcost" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jButton2" pref="0" max="32767" attributes="0"/>
+                          <Component id="SEDANtext" pref="85" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
-              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="SportText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button8" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="textField16" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button16" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="textField23" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                  <Component id="officeCostText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Component id="textField27" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Component id="button25" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                   <Component id="textField35" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
@@ -170,8 +171,17 @@
                   <Component id="textField92" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Component id="button69" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                   <Component id="textField96" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="SportCost" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jobTitlebutton" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jobTitletext" alignment="0" pref="79" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="SportCost" alignment="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="SportText" alignment="0" pref="79" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="officeCostButton" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
@@ -338,14 +348,14 @@
                       <Component id="textField9" alignment="0" pref="79" max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="64" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
@@ -378,29 +388,29 @@
                       <EmptySpace min="34" pref="34" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField10" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="hoursText" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="payRateText" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="payRateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jobHoursButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jobTitlebutton" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="textField11" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField16" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jobTitletext" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="textField13" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="textField14" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button8" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="button9" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="button11" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="button10" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
@@ -423,25 +433,25 @@
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField18" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField24" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="techCostText" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="CleaningCostText" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CleaningCostbutton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="techCostButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="officeCostButton" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="textField17" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField23" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="officeCostText" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="textField20" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="textField19" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button16" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="button17" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="button19" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="button14" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
@@ -464,13 +474,13 @@
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField29" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField32" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="yearlyRentText" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="monthlyRentText" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton7" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="monthlyRentButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="yearlyRentButton" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
@@ -938,14 +948,9 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField10">
+    <Component class="java.awt.TextField" name="hoursText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button8">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="textField11">
@@ -1007,22 +1012,22 @@
         <Property name="label" type="java.lang.String" value="button3"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton3">
+    <Component class="javax.swing.JButton" name="payRateButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="payRate"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton4">
+    <Component class="javax.swing.JButton" name="jobHoursButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
+        <Property name="text" type="java.lang.String" value="hours"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField3">
+    <Component class="java.awt.TextField" name="payRateText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField1"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField16">
+    <Component class="java.awt.TextField" name="jobTitletext">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
@@ -1032,7 +1037,7 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField18">
+    <Component class="java.awt.TextField" name="techCostText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
@@ -1065,14 +1070,9 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.Button" name="button16">
+    <Component class="javax.swing.JButton" name="CleaningCostbutton">
       <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="cleaningCost"/>
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="textField22">
@@ -1080,22 +1080,22 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField23">
+    <Component class="java.awt.TextField" name="officeCostText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField24">
+    <Component class="java.awt.TextField" name="CleaningCostText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField1"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textField24ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CleaningCostTextActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton6">
+    <Component class="javax.swing.JButton" name="techCostButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
+        <Property name="text" type="java.lang.String" value="techCost"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="button17">
@@ -1133,9 +1133,9 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton7">
+    <Component class="javax.swing.JButton" name="monthlyRentButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="monthlyRent"/>
       </Properties>
     </Component>
     <Component class="java.awt.Button" name="button20">
@@ -1158,15 +1158,18 @@
         <Property name="label" type="java.lang.String" value="button3"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField29">
+    <Component class="java.awt.TextField" name="yearlyRentText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton8">
+    <Component class="javax.swing.JButton" name="yearlyRentButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
+        <Property name="text" type="java.lang.String" value="yearlyRent"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="yearlyRentButtonActionPerformed"/>
+      </Events>
     </Component>
     <Component class="java.awt.TextField" name="textField30">
       <Properties>
@@ -1191,10 +1194,13 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField32">
+    <Component class="java.awt.TextField" name="monthlyRentText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField1"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="monthlyRentTextActionPerformed"/>
+      </Events>
     </Component>
     <Component class="java.awt.TextField" name="textField33">
       <Properties>
@@ -1986,6 +1992,19 @@
     <Component class="javax.swing.JButton" name="jButton31">
       <Properties>
         <Property name="text" type="java.lang.String" value="jButton31"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jobTitlebutton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="title"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jobTitlebuttonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="officeCostButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="officeCost"/>
       </Properties>
     </Component>
   </SubComponents>
