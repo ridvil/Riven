@@ -8,3 +8,12 @@
  * Created: Oct 24, 2022
  */
 
+CREATE DATABASE MISCELLANIOUSFEES;
+
+CREATE TABLE MISCFEEINFO(
+    cleaningCost double;
+    technologyCost double;
+    officeCost double;
+);
+
+INSERT INTO TABLE MISCFEEINFO(0, 0, 0);

@@ -10,3 +10,10 @@
 
 CREATE DATABASE EMPLOYEES;
 
+CREATE TABLE EMPLOYEEINFO(
+    payRate double,
+    hours double,
+    jobTitle VARCHAR(255),
+);
+
+INSERT INTO EMPLOYEEINFO (0, 0, 'TestEmployee');

@@ -7,4 +7,11 @@
  * Author:  dpw82
  * Created: Oct 24, 2022
  */
+CREATE DATABASE RENT;
 
+CREATE TABLE RENTEXPENSES(
+    double monthlyRent,
+    double yearlyRent,
+);
+
+INSERT INTO RENTEXPENSES(0, 0);

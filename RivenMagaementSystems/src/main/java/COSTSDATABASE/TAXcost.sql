@@ -8,3 +8,13 @@
  * Created: Oct 24, 2022
  */
 
+CREATE DATABASE TAX;
+
+CREATE TABLE COMMONTAX(
+    salesTax double,
+    propertyTax double
+    stateTax double,
+    federalTax double,
+);
+
+INSERT INTO COMMONTAX(0, 0, 0, 0);
