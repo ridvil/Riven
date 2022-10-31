@@ -7,4 +7,11 @@
  * Author:  dpw82
  * Created: Oct 24, 2022
  */
-CREATE DATABSE 
+CREATE DATABASE SPORTSSALES;
+
+CREATE TABLE SPORTSCAR(
+    SportsPrice double,
+    carName VARCHAR(255),
+);
+
+INSERT INTO SPORTSCAR(0, 'testSports');

@@ -8,3 +8,11 @@
  * Created: Oct 24, 2022
  */
 
+CREATE DATABASE SEDANSALES;
+
+CREATE TABLE SEDANCARS(
+    sedanPrice double,
+    carName VARCHAR(255),
+);
+
+INSERT INTO SEDANCARS(0, 'testSedan');

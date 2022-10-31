@@ -8,3 +8,11 @@
  * Created: Oct 24, 2022
  */
 
+CREATE DATABASE SUVSALES;
+
+CREATE TABLE SUVCARS(
+    SUVprice double,
+    carName VARCHAR(255),
+);
+
+INSERT INTO SUVCARS(0, 'testSUV');
