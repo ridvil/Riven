@@ -44,68 +44,16 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="monthlyRentButton" pref="116" max="32767" attributes="0"/>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="monthlyRentButton" max="32767" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="yearlyRentButton" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Component id="monthlyRentText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <Component id="salesTaxButton" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="propertyTaxButton" min="-2" max="-2" attributes="0"/>
-                  </Group>
                   <Component id="salesTaxText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="textField41" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton11" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton12" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="textField52" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton13" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton14" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="textField55" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton15" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton16" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton17" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton18" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="textField69" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="textField73" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton19" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton20" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="textField84" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton21" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton23" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton26" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton22" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="textField87" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="textField89" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton24" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jButton25" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="sportsPriceField" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="payRateButton" max="32767" attributes="0"/>
@@ -125,14 +73,7 @@
                           <Component id="techCostText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="yearlyRentText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="propertyTaxText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField44" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField49" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField58" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField62" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField76" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField81" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField95" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField99" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                          <Component id="sportsNameField" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Component id="hoursText" alignment="1" min="-2" pref="87" max="-2" attributes="0"/>
@@ -147,6 +88,22 @@
                           <Component id="SEDANtext" pref="85" max="32767" attributes="0"/>
                       </Group>
                   </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="salesTaxButton" max="32767" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="sportsPriceButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jButton3" max="32767" attributes="0"/>
+                          <Component id="propertyTaxButton" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -154,22 +111,6 @@
                   <Component id="textField27" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Component id="button25" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                   <Component id="stateTaxText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="textField42" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button34" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="button40" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="textField54" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button44" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="textField59" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button55" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="textField72" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="textField74" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button58" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="button64" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="button65" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="textField86" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="textField92" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button69" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="textField96" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
                   <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
                       <Component id="jobTitlebutton" alignment="0" max="32767" attributes="0"/>
                       <Component id="jobTitletext" alignment="0" pref="79" max="32767" attributes="0"/>
@@ -186,29 +127,7 @@
                       <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="CarNameText" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField11" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button9" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField17" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button17" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button22" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField30" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="federalTaxText" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField43" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button37" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField50" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button41" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField60" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button45" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button48" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField63" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField75" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button61" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField82" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button66" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField97" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button70" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button73" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField100" min="-2" pref="79" max="-2" attributes="0"/>
                           <Component id="federalTaxButton" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -217,137 +136,7 @@
                       <Component id="CarName" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="textField7" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField13" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button11" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField20" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button19" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField26" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button21" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField34" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button27" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField46" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button36" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button43" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField57" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button47" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField65" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button51" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField71" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="textField78" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button60" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField91" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button68" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField94" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button72" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="textField102" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="button76" min="-2" pref="91" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="textField8" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField14" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField19" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField25" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField33" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField45" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField56" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField66" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField70" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField77" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField90" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField93" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField103" min="-2" pref="79" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="textField6" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="textField12" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button12" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField22" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button18" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField28" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button23" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField36" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button29" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField47" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button38" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField53" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button42" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField61" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button49" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField64" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button52" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField79" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button62" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField85" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button67" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField98" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button74" min="-2" pref="91" max="-2" attributes="0"/>
-                                  <Component id="textField101" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="button77" min="-2" pref="91" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Component id="button10" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button14" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button24" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button30" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button32" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button39" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button50" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button54" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button56" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button63" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button75" min="-2" pref="91" max="-2" attributes="0"/>
-                          <Component id="button79" min="-2" pref="91" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="jButton28" min="-2" pref="79" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Component id="jButton29" min="-2" pref="75" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                      <Component id="jButton30" min="-2" pref="79" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="textField15" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button13" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="button15" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="textField21" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button20" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="textField31" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button26" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="textField39" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button33" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="textField48" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button35" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="textField51" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button46" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="textField67" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button53" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="textField68" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button57" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="textField80" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button59" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="textField83" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="textField88" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button71" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Component id="textField104" min="-2" pref="79" max="-2" attributes="0"/>
-                  <Component id="button78" min="-2" pref="91" max="-2" attributes="0"/>
-                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                      <Component id="jButton31" alignment="0" pref="0" max="32767" attributes="0"/>
-                      <Component id="textField9" alignment="0" pref="79" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace pref="62" max="32767" attributes="0"/>
+              <EmptySpace pref="456" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -367,22 +156,12 @@
                           <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="SportCost" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="CarName" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton28" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton29" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton30" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton31" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="CarNameText" min="-2" max="-2" attributes="0"/>
                           <Component id="SportText" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField7" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField8" min="-2" max="-2" attributes="0"/>
-                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                              <Component id="textField9" min="-2" max="-2" attributes="0"/>
-                              <Component id="textField6" min="-2" max="-2" attributes="0"/>
-                          </Group>
                       </Group>
                       <EmptySpace min="34" pref="34" max="-2" attributes="0"/>
                   </Group>
@@ -402,30 +181,8 @@
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField11" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jobTitletext" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField13" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField14" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button9" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button11" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button10" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField15" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button13" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField12" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button12" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="jobTitletext" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
@@ -443,30 +200,8 @@
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField17" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="officeCostText" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField20" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField19" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button17" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button19" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button14" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField21" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button15" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField22" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button18" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="officeCostText" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
@@ -483,61 +218,23 @@
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField30" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField27" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField26" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField25" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="textField27" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button25" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button22" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button21" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button24" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField31" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button20" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField28" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button23" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="button25" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="propertyTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="salesTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="salesTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="propertyTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="stateTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="textField39" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="button26" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="textField36" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="button29" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                          <Component id="propertyTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="salesTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="salesTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="propertyTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="stateTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
                   </Group>
@@ -545,346 +242,22 @@
                       <Group type="103" groupAlignment="1" attributes="0">
                           <Component id="federalTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="stateTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField34" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField33" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button27" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="button30" alignment="0" min="-2" pref="24" max="-2" attributes="0"/>
-                          <Component id="federalTaxButton" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="federalTaxButton" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
               <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField58" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField41" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton17" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton18" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField60" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField42" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField65" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField66" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button44" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button45" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button51" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button50" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField67" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button53" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField64" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button52" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
+                  <Component id="sportsNameField" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="sportsPriceField" alignment="1" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField44" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField55" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton13" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton14" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField43" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField54" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField46" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField45" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button34" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button41" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button43" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button32" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField48" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button33" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField53" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button42" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sportsPriceButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField62" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField69" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton15" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton16" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField63" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField59" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField57" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField56" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button55" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button48" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button47" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button54" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField68" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button46" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField61" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button49" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField49" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField52" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton11" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton12" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField50" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField72" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField71" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField70" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button40" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button37" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button36" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button39" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField51" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button35" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField47" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button38" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField95" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField73" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton26" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton22" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField97" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField74" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField102" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField103" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button69" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button70" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button76" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button75" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField104" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button78" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField101" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button77" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField76" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField87" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton21" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton23" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField75" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField86" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField78" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField77" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button58" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button66" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button68" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button56" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField80" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button57" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField85" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button67" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField99" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField89" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton24" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton25" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField100" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField96" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField94" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField93" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button65" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button73" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button72" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button79" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField88" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button71" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField98" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button74" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField81" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField84" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jButton19" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton20" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="textField82" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField92" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField91" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="textField90" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="button64" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button61" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button60" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="button63" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField83" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="button59" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="textField79" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="button62" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="954" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -910,6 +283,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="textField1"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SuvTextActionPerformed"/>
+      </Events>
     </Component>
     <Component class="java.awt.TextField" name="SportText">
       <Properties>
@@ -932,88 +308,9 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField6">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField7">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField8">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField9">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
     <Component class="java.awt.TextField" name="hoursText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField11">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button9">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField12">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button10">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button10ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="textField13">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button11">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <AccessibilityProperties>
-        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="MercedesCost"/>
-      </AccessibilityProperties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button11ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="textField14">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField15">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button12">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button13">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="payRateButton">
@@ -1039,40 +336,7 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField17">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
     <Component class="java.awt.TextField" name="techCostText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField19">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button14">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button14ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.Button" name="button15">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField20">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField21">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
@@ -1080,11 +344,6 @@
     <Component class="javax.swing.JButton" name="CleaningCostbutton">
       <Properties>
         <Property name="text" type="java.lang.String" value="cleaningCost"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField22">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="officeCostText">
@@ -1105,37 +364,7 @@
         <Property name="text" type="java.lang.String" value="techCost"/>
       </Properties>
     </Component>
-    <Component class="java.awt.Button" name="button17">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button18">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button19">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField25">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField26">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
     <Component class="java.awt.TextField" name="textField27">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField28">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
@@ -1143,26 +372,6 @@
     <Component class="javax.swing.JButton" name="monthlyRentButton">
       <Properties>
         <Property name="text" type="java.lang.String" value="monthlyRent"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button20">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button21">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button22">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button23">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="yearlyRentText">
@@ -1178,27 +387,9 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="yearlyRentButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="java.awt.TextField" name="textField30">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button24">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button24ActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="java.awt.Button" name="button25">
       <Properties>
         <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField31">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="monthlyRentText">
@@ -1209,22 +400,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="monthlyRentTextActionPerformed"/>
       </Events>
     </Component>
-    <Component class="java.awt.TextField" name="textField33">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField34">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
     <Component class="java.awt.TextField" name="stateTaxText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField36">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
@@ -1232,21 +408,6 @@
     <Component class="javax.swing.JButton" name="salesTaxButton">
       <Properties>
         <Property name="text" type="java.lang.String" value="salesTax"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button26">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button27">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button29">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="propertyTaxText">
@@ -1264,698 +425,22 @@
         <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
-    <Component class="java.awt.Button" name="button30">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button30ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="textField39">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
     <Component class="java.awt.TextField" name="salesTaxText">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField1"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="textField41">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField42">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField43">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField44">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField45">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button32">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button32ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.Button" name="button33">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField46">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField47">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField48">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton11">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button34">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button35">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button36">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button37">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button38">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField49">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton12">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField50">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button39">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button39ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.Button" name="button40">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField51">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField52">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton13">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField53">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField54">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField55">
+    <Component class="java.awt.TextField" name="sportsPriceField">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField1"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textField55ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sportsPriceFieldActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton14">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button41">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button42">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button43">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField56">
+    <Component class="java.awt.TextField" name="sportsNameField">
       <Properties>
         <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField57">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField58">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button44">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField59">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField60">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField61">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button45">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton15">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button46">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button47">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button48">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button49">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField62">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton16">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField63">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField64">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button50">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button50ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="textField65">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button51">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button51ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="textField66">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField67">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button52">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button53">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button54">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button54ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton17">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button55">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton18">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField68">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField69">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField70">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField71">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField72">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField73">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField74">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField75">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField76">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField77">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button56">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button56ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.Button" name="button57">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField78">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField79">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField80">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton19">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button58">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button59">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button60">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button61">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button62">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField81">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton20">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField82">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button63">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button63ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.Button" name="button64">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField83">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField84">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton21">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField85">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button65">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField86">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton22">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField87">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textField87ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="textField88">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField89">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField90">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField91">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField92">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton23">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button66">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button67">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button68">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField93">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField94">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField95">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button69">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField96">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField97">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField98">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button70">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton24">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button71">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button72">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button73">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button74">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField99">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton25">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField100">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField101">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button75">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button75ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="textField102">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button76">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button76ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="textField103">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="textField104">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button77">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button78">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.Button" name="button79">
-      <Properties>
-        <Property name="label" type="java.lang.String" value="button3"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button79ActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton26">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="SportCost">
@@ -1969,26 +454,6 @@
     <Component class="javax.swing.JButton" name="CarName">
       <Properties>
         <Property name="text" type="java.lang.String" value="CarName"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton28">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton28"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton29">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton29"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton30">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton30"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton31">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jButton31"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jobTitlebutton">
@@ -2012,6 +477,16 @@
     <Component class="javax.swing.JButton" name="federalTaxButton">
       <Properties>
         <Property name="text" type="java.lang.String" value="federalTax"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="sportsPriceButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="sportsPrice"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="sportsName"/>
       </Properties>
     </Component>
   </SubComponents>

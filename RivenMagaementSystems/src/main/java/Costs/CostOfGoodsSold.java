@@ -19,8 +19,21 @@ public class CostOfGoodsSold implements CommonCosts{
     private double SUVcost;
     private double SEDANcost;
     private double SPORTScost;
+    private double carCost;
     private String CarName;
 
+    public CostOfGoodsSold() {
+        
+    }
+
+
+    public CostOfGoodsSold(double carCost, String CarName) {
+        this.carCost = carCost;
+        this.CarName = CarName;
+    }
+    
+    
+    
     /**
      * @return the SUVcost
      */
