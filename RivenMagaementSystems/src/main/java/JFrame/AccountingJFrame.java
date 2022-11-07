@@ -503,7 +503,7 @@ public class AccountingJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void SportTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SportTextActionPerformed
-        // TODO add your handling code here:
+        //// TODO add your handling code here:
     }//GEN-LAST:event_SportTextActionPerformed
 
     private void SportCostActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SportCostActionPerformed
