@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Riven.xml" />
         <module name="Riven" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Riven" target="1.8" />
-      <module name="Riven.xml" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
