@@ -9,5 +9,8 @@
         <module name="Riven" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Riven" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RivenMagaementSystems/Riven.iml" filepath="$PROJECT_DIR$/RivenMagaementSystems/Riven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Riven.iml" filepath="$PROJECT_DIR$/Riven.iml" />
     </modules>
   </component>
 </project>

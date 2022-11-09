@@ -10,7 +10,6 @@ package Costs;
  * @author dpw82
  */
 public class Employee implements CommonCosts{
-    private String employeeName;
     private double payRate;
     private double hours;
     private String jobTitle;
@@ -23,20 +22,6 @@ public class Employee implements CommonCosts{
         this.hours = hours;
         this.jobTitle = jobTitle;
     }
-
-    public Employee(String employeeName) {
-        this.employeeName = employeeName;
-    }
-
-    public String getEmployeeName() {
-        return employeeName;
-    }
-
-    public void setEmployeeName(String employeeName) {
-        this.employeeName = employeeName;
-    }
-    
-    
     
     /**
      * @return the payRate
