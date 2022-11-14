@@ -10,7 +10,7 @@
 
 CREATE DATABASE COSTOFGOODSSOLD;
 
-CREATE TABLE SportsCarsPurchased (
+CREATE TABLE CARINFORMATION (
     VIN int,
     Make varchar(255),
     Model varchar(255),
@@ -18,18 +18,3 @@ CREATE TABLE SportsCarsPurchased (
     Warranty boolean
 );
 
-CREATE TABLE SedanCarsPurchased (
-    VIN int,
-    Make varchar(255),
-    Model varchar(255),
-    Price double,
-    Warranty boolean
-);
-
-CREATE TABLE SUVCarsPurchased (
-    VIN int,
-    Make varchar(255),
-    Model varchar(255),
-    Price double,
-    Warranty boolean
-);

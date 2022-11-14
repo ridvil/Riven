@@ -44,326 +44,298 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="SUVconstructor" min="-2" pref="111" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                              <Component id="jButton5" alignment="1" min="-2" pref="100" max="-2" attributes="0"/>
-                              <Component id="jButton6" alignment="1" min="-2" pref="100" max="-2" attributes="0"/>
-                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="jButton7" max="32767" attributes="0"/>
-                                  <Component id="jButton8" min="-2" pref="100" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="VINbutton" min="-2" pref="114" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="makeButton" min="-2" pref="85" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="monthlyRentButton" min="-2" pref="116" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="yearlyRentButton" max="32767" attributes="0"/>
+                                  <Component id="yearlyRentText" alignment="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="jButton4" min="-2" pref="135" max="-2" attributes="0"/>
-                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="sportsconstructor" alignment="0" max="32767" attributes="0"/>
-                              <Component id="Sedanconstructor" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="CleaningCostbutton" pref="113" max="32767" attributes="0"/>
+                                  <Component id="cleaningCostText" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                              <Component id="techCostButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="salesTaxButton" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
+                                          <Component id="salePrice" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="salesTaxField" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="propertyTaxField" max="32767" attributes="0"/>
+                                  <Component id="carNameButton" max="32767" attributes="0"/>
+                                  <Component id="propertyTaxButton" max="32767" attributes="0"/>
+                                  <Component id="carNameSoldText" alignment="0" max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="monthlyRentButton" max="32767" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="yearlyRentButton" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="monthlyRentText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="salesTaxText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Component id="sportsPriceField" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="CleaningCostText" min="-2" pref="113" max="-2" attributes="0"/>
-                                          <Component id="CleaningCostbutton" alignment="0" min="-2" pref="113" max="-2" attributes="0"/>
+                                          <Component id="calcExpenses" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="createSale" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                              <Component id="CalcTotalSales" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="calcGrandTotExpenses" min="-2" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
                                       <EmptySpace max="32767" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="techCostButton" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          <Component id="techCostText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                                          <Component id="yearlyRentText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                                          <Component id="propertyTaxText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                                          <Component id="sportsNameField" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                                      </Group>
                                   </Group>
-                                  <Group type="102" alignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="federalTaxField" max="32767" attributes="0"/>
+                                          <Component id="federalTaxButton" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="stateTaxText" max="32767" attributes="0"/>
+                                          <Component id="stateTaxButton" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Component id="addTax" min="-2" pref="83" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="calcExpensesTax" min="-2" pref="131" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="modelButton" min="-2" pref="79" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                              <Component id="hoursText" min="-2" pref="82" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="employeeTitleText" min="-2" pref="79" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="officeCostField" max="32767" attributes="0"/>
+                                          <Component id="officeCostButton" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="caclExpensesMisc" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="NetProfit" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="SuvText" max="32767" attributes="0"/>
-                                          <Component id="SUVcost" max="32767" attributes="0"/>
+                                          <Component id="techCostField" alignment="1" min="-2" pref="75" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="CustomEmployeeConstructor" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="EmployeeNameText" alignment="1" min="-2" pref="125" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="payRateButton" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="payRateText" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
                                       </Group>
-                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jButton2" pref="0" max="32767" attributes="0"/>
-                                          <Component id="SEDANtext" min="-2" pref="85" max="-2" attributes="0"/>
-                                      </Group>
+                                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                      <Component id="jobHoursButton" min="-2" pref="87" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <Component id="salesTaxButton" min="-2" pref="108" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <Component id="sportsPriceButton" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="propertyTaxButton" min="-2" max="-2" attributes="0"/>
-                                      </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="carVINtext" min="-2" pref="114" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                      <Component id="carMakeText" min="-2" pref="85" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="carModelText" min="-2" pref="79" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="officeCostText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                      <Component id="SportCost" alignment="0" pref="0" max="32767" attributes="0"/>
-                                      <Component id="SportText" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="officeCostButton" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="federalTaxText" min="-2" pref="79" max="-2" attributes="0"/>
-                                      <Component id="federalTaxButton" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="stateTaxButton" max="32767" attributes="0"/>
-                                      <Component id="stateText" min="-2" pref="81" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="CustomEmployeeConstructor" max="32767" attributes="0"/>
-                                      <Component id="employeeNameTextField" min="-2" pref="113" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="payRateButton" max="32767" attributes="0"/>
-                                              <Component id="payRateText" max="32767" attributes="0"/>
+                                  <Component id="carPriceText" alignment="0" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jobTitlebutton" min="-2" pref="79" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                                              <Component id="AddEmployee" min="-2" pref="135" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                                          <Component id="jobHoursButton" min="-2" pref="87" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="priceButton" max="32767" attributes="0"/>
+                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                              <Component id="AddCar" min="-2" pref="126" max="-2" attributes="0"/>
+                                          </Group>
                                       </Group>
-                                      <Component id="hoursText" alignment="1" min="-2" pref="87" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
-                                          <Component id="CarNameText" min="-2" pref="79" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Component id="CarName" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="jobTitlebutton" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="jobTitletext" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jButton6" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
                           </Group>
+                          <Component id="monthlyRentText" alignment="0" min="-2" pref="116" max="-2" attributes="0"/>
+                          <Component id="priceSoldText" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
                       </Group>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="305" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-              <Component id="SUVconstructor" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="SEDANtext" min="-2" max="-2" attributes="0"/>
-                              <Component id="SuvText" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="Sedanconstructor" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="SUVcost" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="SportCost" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="sportsconstructor" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
+              <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="carVINtext" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="carMakeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="carModelText" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="CarName" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="SportText" min="-2" max="-2" attributes="0"/>
-                          <Component id="CarNameText" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="34" pref="34" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="jobTitletext" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="hoursText" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="payRateText" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="employeeNameTextField" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="payRateButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jobHoursButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jobTitlebutton" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="CustomEmployeeConstructor" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="techCostText" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="CleaningCostText" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="CleaningCostbutton" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="techCostButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="officeCostButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="officeCostText" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="yearlyRentText" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="monthlyRentText" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="monthlyRentButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="yearlyRentButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="propertyTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="salesTaxText" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="salesTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="propertyTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jButton7" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="federalTaxText" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="federalTaxButton" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="stateText" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                      <Component id="stateTaxButton" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="sportsNameField" alignment="1" min="-2" max="-2" attributes="0"/>
-                  <Component id="sportsPriceField" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="carPriceText" alignment="1" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="sportsPriceButton" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VINbutton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="makeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="modelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="priceButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AddCar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="1037" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="EmployeeNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="payRateText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="hoursText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="employeeTitleText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="payRateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jobHoursButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jobTitlebutton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CustomEmployeeConstructor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AddEmployee" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cleaningCostText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="techCostField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="officeCostField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CleaningCostbutton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="techCostButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="officeCostButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="caclExpensesMisc" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="monthlyRentText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yearlyRentText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="monthlyRentButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yearlyRentButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="calcExpenses" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="salesTaxField" min="-2" max="-2" attributes="0"/>
+                  <Component id="propertyTaxField" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="federalTaxField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="stateTaxText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="salesTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="propertyTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="federalTaxButton" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                      <Component id="stateTaxButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="addTax" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="calcExpensesTax" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="priceSoldText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="carNameSoldText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="salePrice" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="carNameButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="createSale" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CalcTotalSales" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="calcGrandTotExpenses" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NetProfit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="1057" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="SUVcost">
+    <Component class="javax.swing.JButton" name="VINbutton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="SUVcost"/>
+        <Property name="text" type="java.lang.String" value="VIN"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SUVcostActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="VINbuttonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="makeButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="SEDANcost"/>
+        <Property name="text" type="java.lang.String" value="Make"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="makeButtonActionPerformed"/>
       </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="SuvText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SuvTextActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="SportText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SportTextActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="SEDANtext">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SEDANtextActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="CarNameText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="hoursText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="payRateButton">
       <Properties>
@@ -378,38 +350,10 @@
         <Property name="text" type="java.lang.String" value="hours"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="payRateText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="jobTitletext">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="techCostText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JButton" name="CleaningCostbutton">
       <Properties>
         <Property name="text" type="java.lang.String" value="cleaningCost"/>
       </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="officeCostText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="CleaningCostText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CleaningCostTextActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="techCostButton">
       <Properties>
@@ -421,11 +365,6 @@
         <Property name="text" type="java.lang.String" value="monthlyRent"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="yearlyRentText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JButton" name="yearlyRentButton">
       <Properties>
         <Property name="text" type="java.lang.String" value="yearlyRent"/>
@@ -434,22 +373,9 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="yearlyRentButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="java.awt.TextField" name="monthlyRentText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="monthlyRentTextActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JButton" name="salesTaxButton">
       <Properties>
         <Property name="text" type="java.lang.String" value="salesTax"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="propertyTaxText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="propertyTaxButton">
@@ -457,47 +383,20 @@
         <Property name="text" type="java.lang.String" value="propertyTax"/>
       </Properties>
     </Component>
-    <Component class="java.awt.TextField" name="federalTaxText">
+    <Component class="javax.swing.JButton" name="modelButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
+        <Property name="text" type="java.lang.String" value="Model"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="federalTaxTextActionPerformed"/>
-        <EventHandler event="textValueChanged" listener="java.awt.event.TextListener" parameters="java.awt.event.TextEvent" handler="federalTaxTextTextValueChanged"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modelButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="java.awt.TextField" name="salesTaxText">
+    <Component class="javax.swing.JButton" name="priceButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
-      </Properties>
-    </Component>
-    <Component class="java.awt.TextField" name="sportsPriceField">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
+        <Property name="text" type="java.lang.String" value="Price"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sportsPriceFieldActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="java.awt.TextField" name="sportsNameField">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="textField2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="SportCost">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="SPORTcost"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SportCostActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="CarName">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="CarName"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CarNameActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="priceButtonActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jobTitlebutton">
@@ -523,77 +422,133 @@
         <Property name="text" type="java.lang.String" value="federalTax"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="sportsPriceButton">
+    <Component class="javax.swing.JButton" name="salePrice">
       <Properties>
-        <Property name="text" type="java.lang.String" value="sportsPrice"/>
+        <Property name="text" type="java.lang.String" value="Sale Price"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton3">
+    <Component class="javax.swing.JButton" name="carNameButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="sportsName"/>
+        <Property name="text" type="java.lang.String" value="Car Name"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="CustomEmployeeConstructor">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Employee"/>
+        <Property name="text" type="java.lang.String" value="Employee Name"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CustomEmployeeConstructorActionPerformed"/>
       </Events>
     </Component>
-    <Component class="java.awt.TextField" name="employeeNameTextField">
+    <Component class="javax.swing.JButton" name="AddEmployee">
       <Properties>
-        <Property name="text" type="java.lang.String" value="textField1"/>
+        <Property name="text" type="java.lang.String" value="Add Employee"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="stateText">
-    </Component>
-    <Component class="javax.swing.JButton" name="sportsconstructor">
+    <Component class="javax.swing.JButton" name="addTax">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Create Sports"/>
+        <Property name="text" type="java.lang.String" value="Add Tax"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="AddCar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Car"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sportsconstructorActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddCarActionPerformed"/>
       </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Create Employee"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton5">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton5"/>
+        <Property name="text" type="java.lang.String" value="Calc Expenses"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton6">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton6"/>
+        <Property name="text" type="java.lang.String" value="calc Expenses"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton7">
+    <Component class="javax.swing.JButton" name="caclExpensesMisc">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton7"/>
+        <Property name="text" type="java.lang.String" value="calc Expenses"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton8">
+    <Component class="javax.swing.JButton" name="calcExpenses">
       <Properties>
-        <Property name="text" type="java.lang.String" value="jButton8"/>
+        <Property name="text" type="java.lang.String" value="calc Expenses"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Sedanconstructor">
+    <Component class="javax.swing.JButton" name="calcExpensesTax">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Create Sedan"/>
+        <Property name="text" type="java.lang.String" value="calc Expenses"/>
       </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="createSale">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Create Sale"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="carVINtext">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SedanconstructorActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="carVINtextActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="SUVconstructor">
+    <Component class="javax.swing.JTextField" name="carMakeText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="carModelText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="carPriceText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="EmployeeNameText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="payRateText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="hoursText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="employeeTitleText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cleaningCostText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="techCostField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="officeCostField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="monthlyRentText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="yearlyRentText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="salesTaxField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="propertyTaxField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="federalTaxField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="stateTaxText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="priceSoldText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="carNameSoldText">
+    </Component>
+    <Component class="javax.swing.JButton" name="CalcTotalSales">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Create SUV"/>
+        <Property name="text" type="java.lang.String" value="Calculate Total Sales"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CalcTotalSalesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="calcGrandTotExpenses">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate Total Expenses "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="NetProfit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcuate Net Profit"/>
       </Properties>
     </Component>
   </SubComponents>
 </Form>
-

@@ -18,7 +18,7 @@ import java.sql.*;
  */
 public class AccountingJFrame extends javax.swing.JFrame {
     
-    static final String DB_URL = "jdbc:mysql://localhost/TUTORIALSPOINT";
+    static final String DB_URL = "jdbc:mysql://localhost/AccountingJFrame";
     static final String USER = "guest";
     static final String PASS = "guest123";
 
@@ -41,52 +41,56 @@ public class AccountingJFrame extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
-        SUVcost = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        SuvText = new java.awt.TextField();
-        SportText = new java.awt.TextField();
-        SEDANtext = new java.awt.TextField();
-        CarNameText = new java.awt.TextField();
-        hoursText = new java.awt.TextField();
+        VINbutton = new javax.swing.JButton();
+        makeButton = new javax.swing.JButton();
         payRateButton = new javax.swing.JButton();
         jobHoursButton = new javax.swing.JButton();
-        payRateText = new java.awt.TextField();
-        jobTitletext = new java.awt.TextField();
-        techCostText = new java.awt.TextField();
         CleaningCostbutton = new javax.swing.JButton();
-        officeCostText = new java.awt.TextField();
-        CleaningCostText = new java.awt.TextField();
         techCostButton = new javax.swing.JButton();
         monthlyRentButton = new javax.swing.JButton();
-        yearlyRentText = new java.awt.TextField();
         yearlyRentButton = new javax.swing.JButton();
-        monthlyRentText = new java.awt.TextField();
         salesTaxButton = new javax.swing.JButton();
-        propertyTaxText = new java.awt.TextField();
         propertyTaxButton = new javax.swing.JButton();
-        federalTaxText = new java.awt.TextField();
-        salesTaxText = new java.awt.TextField();
-        sportsPriceField = new java.awt.TextField();
-        sportsNameField = new java.awt.TextField();
-        SportCost = new javax.swing.JButton();
-        CarName = new javax.swing.JButton();
+        modelButton = new javax.swing.JButton();
+        priceButton = new javax.swing.JButton();
         jobTitlebutton = new javax.swing.JButton();
         officeCostButton = new javax.swing.JButton();
         stateTaxButton = new javax.swing.JButton();
         federalTaxButton = new javax.swing.JButton();
-        sportsPriceButton = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        salePrice = new javax.swing.JButton();
+        carNameButton = new javax.swing.JButton();
         CustomEmployeeConstructor = new javax.swing.JButton();
-        employeeNameTextField = new java.awt.TextField();
-        stateText = new javax.swing.JTextField();
-        sportsconstructor = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        AddEmployee = new javax.swing.JButton();
+        addTax = new javax.swing.JButton();
+        AddCar = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        Sedanconstructor = new javax.swing.JButton();
-        SUVconstructor = new javax.swing.JButton();
+        caclExpensesMisc = new javax.swing.JButton();
+        calcExpenses = new javax.swing.JButton();
+        calcExpensesTax = new javax.swing.JButton();
+        createSale = new javax.swing.JButton();
+        carVINtext = new javax.swing.JTextField();
+        carMakeText = new javax.swing.JTextField();
+        carModelText = new javax.swing.JTextField();
+        carPriceText = new javax.swing.JTextField();
+        EmployeeNameText = new javax.swing.JTextField();
+        payRateText = new javax.swing.JTextField();
+        hoursText = new javax.swing.JTextField();
+        employeeTitleText = new javax.swing.JTextField();
+        cleaningCostText = new javax.swing.JTextField();
+        techCostField = new javax.swing.JTextField();
+        officeCostField = new javax.swing.JTextField();
+        monthlyRentText = new javax.swing.JTextField();
+        yearlyRentText = new javax.swing.JTextField();
+        salesTaxField = new javax.swing.JTextField();
+        propertyTaxField = new javax.swing.JTextField();
+        federalTaxField = new javax.swing.JTextField();
+        stateTaxText = new javax.swing.JTextField();
+        priceSoldText = new javax.swing.JTextField();
+        carNameSoldText = new javax.swing.JTextField();
+        CalcTotalSales = new javax.swing.JButton();
+        calcGrandTotExpenses = new javax.swing.JButton();
+        NetProfit = new javax.swing.JButton();
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -96,44 +100,19 @@ public class AccountingJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        SUVcost.setText("SUVcost");
-        SUVcost.addActionListener(new java.awt.event.ActionListener() {
+        VINbutton.setText("VIN");
+        VINbutton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SUVcostActionPerformed(evt);
+                VINbuttonActionPerformed(evt);
             }
         });
 
-        jButton2.setText("SEDANcost");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        makeButton.setText("Make");
+        makeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                makeButtonActionPerformed(evt);
             }
         });
-
-        SuvText.setText("textField1");
-        SuvText.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SuvTextActionPerformed(evt);
-            }
-        });
-
-        SportText.setText("textField2");
-        SportText.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SportTextActionPerformed(evt);
-            }
-        });
-
-        SEDANtext.setText("textField2");
-        SEDANtext.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SEDANtextActionPerformed(evt);
-            }
-        });
-
-        CarNameText.setText("textField2");
-
-        hoursText.setText("textField2");
 
         payRateButton.setText("payRate");
         payRateButton.addActionListener(new java.awt.event.ActionListener() {
@@ -144,28 +123,11 @@ public class AccountingJFrame extends javax.swing.JFrame {
 
         jobHoursButton.setText("hours");
 
-        payRateText.setText("textField1");
-
-        jobTitletext.setText("textField2");
-
-        techCostText.setText("textField2");
-
         CleaningCostbutton.setText("cleaningCost");
-
-        officeCostText.setText("textField2");
-
-        CleaningCostText.setText("textField1");
-        CleaningCostText.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CleaningCostTextActionPerformed(evt);
-            }
-        });
 
         techCostButton.setText("techCost");
 
         monthlyRentButton.setText("monthlyRent");
-
-        yearlyRentText.setText("textField2");
 
         yearlyRentButton.setText("yearlyRent");
         yearlyRentButton.addActionListener(new java.awt.event.ActionListener() {
@@ -174,53 +136,21 @@ public class AccountingJFrame extends javax.swing.JFrame {
             }
         });
 
-        monthlyRentText.setText("textField1");
-        monthlyRentText.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                monthlyRentTextActionPerformed(evt);
-            }
-        });
-
         salesTaxButton.setText("salesTax");
-
-        propertyTaxText.setText("textField2");
 
         propertyTaxButton.setText("propertyTax");
 
-        federalTaxText.setText("textField2");
-        federalTaxText.addActionListener(new java.awt.event.ActionListener() {
+        modelButton.setText("Model");
+        modelButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                federalTaxTextActionPerformed(evt);
-            }
-        });
-        federalTaxText.addTextListener(new java.awt.event.TextListener() {
-            public void textValueChanged(java.awt.event.TextEvent evt) {
-                federalTaxTextTextValueChanged(evt);
+                modelButtonActionPerformed(evt);
             }
         });
 
-        salesTaxText.setText("textField1");
-
-        sportsPriceField.setText("textField1");
-        sportsPriceField.addActionListener(new java.awt.event.ActionListener() {
+        priceButton.setText("Price");
+        priceButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                sportsPriceFieldActionPerformed(evt);
-            }
-        });
-
-        sportsNameField.setText("textField2");
-
-        SportCost.setText("SPORTcost");
-        SportCost.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SportCostActionPerformed(evt);
-            }
-        });
-
-        CarName.setText("CarName");
-        CarName.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CarNameActionPerformed(evt);
+                priceButtonActionPerformed(evt);
             }
         });
 
@@ -237,278 +167,293 @@ public class AccountingJFrame extends javax.swing.JFrame {
 
         federalTaxButton.setText("federalTax");
 
-        sportsPriceButton.setText("sportsPrice");
+        salePrice.setText("Sale Price");
 
-        jButton3.setText("sportsName");
+        carNameButton.setText("Car Name");
 
-        CustomEmployeeConstructor.setText("Employee");
+        CustomEmployeeConstructor.setText("Employee Name");
         CustomEmployeeConstructor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CustomEmployeeConstructorActionPerformed(evt);
             }
         });
 
-        employeeNameTextField.setText("textField1");
+        AddEmployee.setText("Add Employee");
 
-        sportsconstructor.setText("Create Sports");
-        sportsconstructor.addActionListener(new java.awt.event.ActionListener() {
+        addTax.setText("Add Tax");
+
+        AddCar.setText("Add Car");
+        AddCar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                sportsconstructorActionPerformed(evt);
+                AddCarActionPerformed(evt);
             }
         });
 
-        jButton4.setText("Create Employee");
-
-        jButton5.setText("jButton5");
-
-        jButton6.setText("jButton6");
-
-        jButton7.setText("jButton7");
-
-        jButton8.setText("jButton8");
-
-        Sedanconstructor.setText("Create Sedan");
-        Sedanconstructor.addActionListener(new java.awt.event.ActionListener() {
+        jButton5.setText("Calc Expenses");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SedanconstructorActionPerformed(evt);
+                jButton5ActionPerformed(evt);
             }
         });
 
-        SUVconstructor.setText("Create SUV");
+        jButton6.setText("calc Expenses");
+
+        caclExpensesMisc.setText("calc Expenses");
+
+        calcExpenses.setText("calc Expenses");
+
+        calcExpensesTax.setText("calc Expenses");
+
+        createSale.setText("Create Sale");
+
+        carVINtext.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                carVINtextActionPerformed(evt);
+            }
+        });
+
+        CalcTotalSales.setText("Calculate Total Sales");
+        CalcTotalSales.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CalcTotalSalesActionPerformed(evt);
+            }
+        });
+
+        calcGrandTotExpenses.setText("Calculate Total Expenses ");
+
+        NetProfit.setText("Calcuate Net Profit");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(44, 44, 44)
+                .addGap(83, 83, 83)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(SUVconstructor, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jButton5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jButton6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(VINbutton, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(28, 28, 28)
+                                .addComponent(makeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(monthlyRentButton, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(yearlyRentButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(yearlyRentText)))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(CleaningCostbutton, javax.swing.GroupLayout.DEFAULT_SIZE, 113, Short.MAX_VALUE)
+                                    .addComponent(cleaningCostText))
+                                .addGap(33, 33, 33)
+                                .addComponent(techCostButton))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(salesTaxButton, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(salePrice))
+                                        .addGap(18, 18, 18))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(salesTaxField)
+                                        .addGap(18, 18, 18)))
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jButton7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(sportsconstructor, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(Sedanconstructor, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                        .addGap(18, 18, 18)
+                                    .addComponent(propertyTaxField)
+                                    .addComponent(carNameButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(propertyTaxButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(carNameSoldText))))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                        .addComponent(monthlyRentButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(yearlyRentButton))
-                                    .addComponent(monthlyRentText, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(salesTaxText, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(sportsPriceField, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addGap(33, 33, 33)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(CleaningCostText, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(CleaningCostbutton, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(techCostButton, javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(techCostText, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(yearlyRentText, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(propertyTaxText, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(sportsNameField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(SuvText, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(SUVcost, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                        .addGap(28, 28, 28)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
-                                            .addComponent(SEDANtext, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(calcExpenses)
                                             .addGroup(layout.createSequentialGroup()
-                                                .addComponent(salesTaxButton, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(18, 18, 18))
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addComponent(sportsPriceButton)
-                                                .addGap(31, 31, 31)))
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(jButton3)
-                                            .addComponent(propertyTaxButton))))
+                                                .addComponent(createSale)
+                                                .addGap(35, 35, 35)
+                                                .addComponent(CalcTotalSales)
+                                                .addGap(18, 18, 18)
+                                                .addComponent(calcGrandTotExpenses)))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(federalTaxField)
+                                            .addComponent(federalTaxButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addComponent(stateTaxText)
+                                            .addComponent(stateTaxButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                        .addGap(23, 23, 23)
+                                        .addComponent(addTax, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(calcExpensesTax, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(88, 88, 88))))
+                            .addGroup(layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(officeCostText, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(SportCost, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
-                                        .addComponent(SportText, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(officeCostButton)))
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(federalTaxText, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(federalTaxButton))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(stateTaxButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(stateText, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGroup(layout.createSequentialGroup()
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(CustomEmployeeConstructor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(employeeNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGap(29, 29, 29)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addGroup(layout.createSequentialGroup()
-                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(payRateButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                .addComponent(payRateText, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                            .addGap(27, 27, 27)
-                                            .addComponent(jobHoursButton, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addComponent(hoursText, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(layout.createSequentialGroup()
-                                            .addGap(4, 4, 4)
-                                            .addComponent(CarNameText, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addComponent(CarName)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(modelButton, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addGap(14, 14, 14)
+                                                .addComponent(hoursText, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(employeeTitleText, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                            .addComponent(jobTitlebutton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(jobTitletext, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))))))))
-                .addContainerGap(305, Short.MAX_VALUE))
+                                            .addComponent(officeCostField)
+                                            .addComponent(officeCostButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(caclExpensesMisc)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(NetProfit)
+                        .addGap(210, 210, 210))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(techCostField, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(CustomEmployeeConstructor)
+                                                    .addComponent(EmployeeNameText, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addGap(17, 17, 17)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(payRateButton)
+                                                    .addComponent(payRateText, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addGap(27, 27, 27)
+                                        .addComponent(jobHoursButton, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(carVINtext, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(28, 28, 28)
+                                        .addComponent(carMakeText, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(carModelText, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(carPriceText, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(jobTitlebutton, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(AddEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                .addComponent(priceButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                .addGap(10, 10, 10)
+                                                .addComponent(AddCar, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGap(40, 40, 40)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jButton5)
+                                            .addComponent(jButton6)))))
+                            .addComponent(monthlyRentText, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(priceSoldText, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(SUVconstructor)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(SEDANtext, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(SuvText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(Sedanconstructor))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(SUVcost)
-                            .addComponent(jButton2)
-                            .addComponent(SportCost)
-                            .addComponent(sportsconstructor)))
-                    .addComponent(CarName)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(SportText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(CarNameText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(34, 34, 34)))
-                .addGap(47, 47, 47)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jobTitletext, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(34, 34, 34))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(hoursText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(payRateText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(employeeNameTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(payRateButton)
-                            .addComponent(jobHoursButton)
-                            .addComponent(jobTitlebutton)
-                            .addComponent(CustomEmployeeConstructor)
-                            .addComponent(jButton4))))
-                .addGap(56, 56, 56)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(techCostText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(CleaningCostText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(CleaningCostbutton)
-                                    .addComponent(techCostButton)
-                                    .addComponent(officeCostButton)
-                                    .addComponent(jButton5)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(officeCostText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(34, 34, 34)))
-                        .addGap(90, 90, 90)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(yearlyRentText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(monthlyRentText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(monthlyRentButton)
-                            .addComponent(yearlyRentButton)
-                            .addComponent(jButton6))
-                        .addGap(46, 46, 46)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(propertyTaxText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(salesTaxText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(salesTaxButton)
-                                    .addComponent(propertyTaxButton)
-                                    .addComponent(jButton7)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(federalTaxText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(federalTaxButton))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(stateText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(10, 10, 10)
-                        .addComponent(stateTaxButton)))
-                .addGap(54, 54, 54)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(sportsNameField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(sportsPriceField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(133, 133, 133)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(carVINtext, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(carMakeText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(carModelText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(carPriceText, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(sportsPriceButton)
-                    .addComponent(jButton3)
-                    .addComponent(jButton8))
-                .addContainerGap(1037, Short.MAX_VALUE))
+                    .addComponent(VINbutton)
+                    .addComponent(makeButton)
+                    .addComponent(modelButton)
+                    .addComponent(priceButton)
+                    .addComponent(AddCar)
+                    .addComponent(jButton5))
+                .addGap(45, 45, 45)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(EmployeeNameText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(payRateText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(hoursText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(employeeTitleText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(payRateButton)
+                    .addComponent(jobHoursButton)
+                    .addComponent(jobTitlebutton)
+                    .addComponent(CustomEmployeeConstructor)
+                    .addComponent(AddEmployee)
+                    .addComponent(jButton6))
+                .addGap(51, 51, 51)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(cleaningCostText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(techCostField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(officeCostField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(CleaningCostbutton)
+                    .addComponent(techCostButton)
+                    .addComponent(officeCostButton)
+                    .addComponent(caclExpensesMisc))
+                .addGap(55, 55, 55)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(monthlyRentText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(yearlyRentText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(monthlyRentButton)
+                    .addComponent(yearlyRentButton)
+                    .addComponent(calcExpenses))
+                .addGap(36, 36, 36)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(salesTaxField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(propertyTaxField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(federalTaxField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(stateTaxText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(salesTaxButton)
+                        .addComponent(propertyTaxButton))
+                    .addComponent(federalTaxButton)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(stateTaxButton)
+                        .addComponent(addTax)
+                        .addComponent(calcExpensesTax)))
+                .addGap(44, 44, 44)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(priceSoldText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(carNameSoldText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(salePrice)
+                    .addComponent(carNameButton)
+                    .addComponent(createSale)
+                    .addComponent(CalcTotalSales)
+                    .addComponent(calcGrandTotExpenses)
+                    .addComponent(NetProfit))
+                .addContainerGap(1057, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void CleaningCostTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CleaningCostTextActionPerformed
-        int numberIn = Integer.parseInt(payRateText.getText());
-        payRateText.setText(" " + numberIn);
-    }//GEN-LAST:event_CleaningCostTextActionPerformed
-
-    private void SUVcostActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SUVcostActionPerformed
-        int numberIn = Integer.parseInt(SuvText.getText());
-        SuvText.setText(" " + numberIn);
+    private void VINbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VINbuttonActionPerformed
+        int numberIn = Integer.parseInt(carVINtext.getText());
+        carVINtext.setText(" " + numberIn);
         
-    }//GEN-LAST:event_SUVcostActionPerformed
+    }//GEN-LAST:event_VINbuttonActionPerformed
 
-    private void SEDANtextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SEDANtextActionPerformed
+    private void makeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_makeButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_SEDANtextActionPerformed
+    }//GEN-LAST:event_makeButtonActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void modelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_modelButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void SportTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SportTextActionPerformed
-        //// TODO add your handling code here:
-    }//GEN-LAST:event_SportTextActionPerformed
-
-    private void SportCostActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SportCostActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SportCostActionPerformed
+    }//GEN-LAST:event_modelButtonActionPerformed
 
     private void jobTitlebuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jobTitlebuttonActionPerformed
         // TODO add your handling code here:
@@ -518,48 +463,36 @@ public class AccountingJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_yearlyRentButtonActionPerformed
 
-    private void monthlyRentTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_monthlyRentTextActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_monthlyRentTextActionPerformed
-
     private void payRateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_payRateButtonActionPerformed
         int numberIn = Integer.parseInt(payRateText.getText());
         payRateText.setText("" + numberIn);
     }//GEN-LAST:event_payRateButtonActionPerformed
 
-    private void sportsPriceFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sportsPriceFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_sportsPriceFieldActionPerformed
-
-    private void SuvTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SuvTextActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SuvTextActionPerformed
-
     private void CustomEmployeeConstructorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CustomEmployeeConstructorActionPerformed
-        Employee employee = new Employee(employeeNameTextField.getText());
-        employeeNameTextField.setText(employee.getEmployeeName() + " name is set");
+        Employee employee = new Employee(EmployeeNameText.getText());
+        EmployeeNameText.setText(employee.getEmployeeName() + " name is set");
     }//GEN-LAST:event_CustomEmployeeConstructorActionPerformed
 
-    private void CarNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CarNameActionPerformed
-        String carName = CarNameText.getText();
-        CarNameText.setText(carName + " name is set.");
-    }//GEN-LAST:event_CarNameActionPerformed
+    private void priceButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_priceButtonActionPerformed
+        String carName = priceButton.getText();
+        priceButton.setText(carName + " name is set.");
+    }//GEN-LAST:event_priceButtonActionPerformed
 
-    private void federalTaxTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_federalTaxTextActionPerformed
+    private void carVINtextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_carVINtextActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_federalTaxTextActionPerformed
+    }//GEN-LAST:event_carVINtextActionPerformed
 
-    private void sportsconstructorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sportsconstructorActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_sportsconstructorActionPerformed
+    private void AddCarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddCarActionPerformed
+        
+    }//GEN-LAST:event_AddCarActionPerformed
 
-    private void SedanconstructorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SedanconstructorActionPerformed
+    private void CalcTotalSalesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CalcTotalSalesActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_SedanconstructorActionPerformed
+    }//GEN-LAST:event_CalcTotalSalesActionPerformed
 
-    private void federalTaxTextTextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_federalTaxTextTextValueChanged
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_federalTaxTextTextValueChanged
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -609,54 +542,58 @@ public class AccountingJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton CarName;
-    private java.awt.TextField CarNameText;
-    private java.awt.TextField CleaningCostText;
+    private javax.swing.JButton AddCar;
+    private javax.swing.JButton AddEmployee;
+    private javax.swing.JButton CalcTotalSales;
     private javax.swing.JButton CleaningCostbutton;
     private javax.swing.JButton CustomEmployeeConstructor;
-    private java.awt.TextField SEDANtext;
-    private javax.swing.JButton SUVconstructor;
-    private javax.swing.JButton SUVcost;
-    private javax.swing.JButton Sedanconstructor;
-    private javax.swing.JButton SportCost;
-    private java.awt.TextField SportText;
-    private java.awt.TextField SuvText;
-    private java.awt.TextField employeeNameTextField;
+    private javax.swing.JTextField EmployeeNameText;
+    private javax.swing.JButton NetProfit;
+    private javax.swing.JButton VINbutton;
+    private javax.swing.JButton addTax;
+    private javax.swing.JButton caclExpensesMisc;
+    private javax.swing.JButton calcExpenses;
+    private javax.swing.JButton calcExpensesTax;
+    private javax.swing.JButton calcGrandTotExpenses;
+    private javax.swing.JTextField carMakeText;
+    private javax.swing.JTextField carModelText;
+    private javax.swing.JButton carNameButton;
+    private javax.swing.JTextField carNameSoldText;
+    private javax.swing.JTextField carPriceText;
+    private javax.swing.JTextField carVINtext;
+    private javax.swing.JTextField cleaningCostText;
+    private javax.swing.JButton createSale;
+    private javax.swing.JTextField employeeTitleText;
     private javax.swing.JButton federalTaxButton;
-    private java.awt.TextField federalTaxText;
-    private java.awt.TextField hoursText;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
+    private javax.swing.JTextField federalTaxField;
+    private javax.swing.JTextField hoursText;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JButton jobHoursButton;
     private javax.swing.JButton jobTitlebutton;
-    private java.awt.TextField jobTitletext;
+    private javax.swing.JButton makeButton;
+    private javax.swing.JButton modelButton;
     private javax.swing.JButton monthlyRentButton;
-    private java.awt.TextField monthlyRentText;
+    private javax.swing.JTextField monthlyRentText;
     private javax.swing.JButton officeCostButton;
-    private java.awt.TextField officeCostText;
+    private javax.swing.JTextField officeCostField;
     private javax.swing.JButton payRateButton;
-    private java.awt.TextField payRateText;
+    private javax.swing.JTextField payRateText;
+    private javax.swing.JButton priceButton;
+    private javax.swing.JTextField priceSoldText;
     private javax.swing.JButton propertyTaxButton;
-    private java.awt.TextField propertyTaxText;
+    private javax.swing.JTextField propertyTaxField;
+    private javax.swing.JButton salePrice;
     private javax.swing.JButton salesTaxButton;
-    private java.awt.TextField salesTaxText;
-    private java.awt.TextField sportsNameField;
-    private javax.swing.JButton sportsPriceButton;
-    private java.awt.TextField sportsPriceField;
-    private javax.swing.JButton sportsconstructor;
+    private javax.swing.JTextField salesTaxField;
     private javax.swing.JButton stateTaxButton;
-    private javax.swing.JTextField stateText;
+    private javax.swing.JTextField stateTaxText;
     private javax.swing.JButton techCostButton;
-    private java.awt.TextField techCostText;
+    private javax.swing.JTextField techCostField;
     private javax.swing.JButton yearlyRentButton;
-    private java.awt.TextField yearlyRentText;
+    private javax.swing.JTextField yearlyRentText;
     // End of variables declaration//GEN-END:variables
 }

@@ -9,9 +9,9 @@ package Revenues;
  *
  * @author dpw82
  */
-public class TotalCompanyRevenue implements CommonSalesData {
+public class TotalCompanyRevenue {
 
-    @Override
+    
     public long totalSales() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
